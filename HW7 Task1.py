@@ -90,7 +90,7 @@ median_val = get_median(ordbok)
 print(f'The median of the 20 numbers is {median_val:.2f}')
 
 # Calculate mode
-mode_val = [get_mode(ordbok)]
+mode_val = get_mode(ordbok)
 print(f'The mode(s) of the 20 numbers is(are): ',end='')
 for index in range(len(mode_val)):
     print(f'{mode_val[index]} ')
